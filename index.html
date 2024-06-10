@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fonts">
+  <title>Presentacion</title>
+  <link rel="stylesheet" href="enlace.js">
+</head>
+<body>
+  <h1 id="titulo"></h1>
+  <header class="header" id="#header">
+    <input type="checkbox" class="header__checkbox" id="open-menu">
+    <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+    <div class="header__logo-container">
+      <img src="karate5.jpg" alt="" class="header__logo">
+    </div>
+    <nav class="header__nav">
+      <ul class="header__nav-list">
+        <li class="header__nav-item"><a href="#profile">About</a></li>
+        <li class="header__nav-item"><a href="#portfolio">Portfolio</a></li>
+        <li class="header__nav-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h2>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+    Ducimus itaque quasi quas alias sit hic eum quisquam, asperiores 
+    iste ratione dolor quaerat eius nulla nostrum reiciendis? Neque nostrum atque tempora?
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis nam dicta aliquid, 
+    dignissimos libero vero atque aliquam quos repellat aut tenetur molestiae ducimus autem doloribus explicabo, 
+    veniam labore voluptatum qui.</h2>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="portfolio__title">PORTFOLIO SECTION</h2>
+    <div class="portfolio__project-container">
+      <div class="portfolio__project1" id="mi">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+      <div class="portfolio__project2" id="lo">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+      <div class="portfolio__project3" id="loco">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+      <div class="portfolio__project4">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+      <div class="portfolio__project5">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+      <div class="portfolio__project6">
+        <h2 class="portfolio__project-name">PROJECT</h2>
+      </div>
+    </div>
+  </section>
+  <section class="form" id="contact">
+    <h2 class="form__title">CONTACT</h2>
+    <form action="enlace.php" method="POST" class="form__form">
+      <div class="form__input-container">
+        <label for="Nombre">Nombre
+          <input id="Nombre" name="Nombre" type="text" placeholder="Ingrese su Nombre">
+        </label>
+      </div>
+      <div class="form__input-container">
+        <label for="Apellido">Apellido
+          <input id="Apellido" name="Apellido" type="text" placeholder="Ingrese su Apellido">
+        </label>
+      </div>
+      <div class="form__input-container">
+        <label for="Email">Email
+          <input id="Email" name="Email" type="text" placeholder="Ingrese su Email">
+        </label>
+      </div>
+      <div class="form__input-container">
+        <label for="Mensaje">Mensaje
+          <textarea id="Mensaje" name="Mensaje" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+        </label>
+      </div>
+      <div class="form__input-container">
+    
+          <input  type="submit" class="pregunta" >
+        
+      </div>
+    </form>
+  </section>
+ 
+  <footer>
+    (c)Copyrigth
+    <a href="#titulo">Ir arriba</a>
+  </footer>
+</body>
+</html>
