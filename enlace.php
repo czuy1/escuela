@@ -15,7 +15,7 @@ $mensaje.="Enviado el día ".date("d,m,Y",time());
 
 
 
-mail($para,$asunto,$mensaje,$header,TRUE);
+mail($para,$asunto,$mensaje,$header);
 header("location.saludo.html");
 
 ?>
